@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				gaming: {
+					primary: '#8B5CF6',
+					secondary: '#D946EF',
+					accent: '#F97316',
+					highlight: '#0EA5E9',
+					background: '#0F172A',
+					card: '#1E293B',
+					border: '#334155'
 				}
 			},
 			borderRadius: {
@@ -84,11 +94,45 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 10px rgba(139, 92, 246, 0.6)'
+					},
+					'50%': { 
+						boxShadow: '0 0 20px rgba(139, 92, 246, 0.9)'
+					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'rotate-glow': {
+					'0%': { 
+						transform: 'rotate(0deg)',
+						boxShadow: '0 0 10px rgba(139, 92, 246, 0.6)' 
+					},
+					'50%': { 
+						boxShadow: '0 0 20px rgba(139, 92, 246, 0.9)' 
+					},
+					'100%': { 
+						transform: 'rotate(360deg)',
+						boxShadow: '0 0 10px rgba(139, 92, 246, 0.6)' 
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite',
+				'float': 'float 3s ease-in-out infinite',
+				'rotate-glow': 'rotate-glow 3s linear infinite'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				'gaming-gradient': 'linear-gradient(to right, #8B5CF6, #D946EF)',
+				'card-gradient': 'linear-gradient(225deg, #0EA5E9 0%, #8B5CF6 100%)'
 			}
 		}
 	},
