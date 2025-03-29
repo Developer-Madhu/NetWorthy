@@ -33,7 +33,7 @@ export const jobs: Job[] = [
     salary: "$120,000 - $150,000",
     description: "Join our team to build cutting-edge web applications using React and TypeScript.",
     requirements: ["3+ years React experience", "TypeScript proficiency", "CSS/SASS expertise"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?tech,logo",
     postedDate: "2 days ago"
   },
   {
@@ -44,7 +44,7 @@ export const jobs: Job[] = [
     salary: "$90,000 - $120,000",
     description: "Create beautiful, intuitive user experiences for our enterprise SaaS platform.",
     requirements: ["Portfolio showcasing UX work", "Figma expertise", "User research experience"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?design,logo",
     postedDate: "1 week ago"
   },
   {
@@ -55,7 +55,7 @@ export const jobs: Job[] = [
     salary: "$130,000 - $160,000",
     description: "Lead our product development from concept to launch, working with cross-functional teams.",
     requirements: ["5+ years PM experience", "Technical background", "Agile methodologies"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?product,logo",
     postedDate: "3 days ago"
   },
   {
@@ -66,7 +66,7 @@ export const jobs: Job[] = [
     salary: "$140,000 - $180,000",
     description: "Extract insights from large datasets to drive business decisions using ML and AI.",
     requirements: ["Python/R proficiency", "ML experience", "SQL expertise"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?data,logo",
     postedDate: "Just now"
   },
   {
@@ -77,7 +77,7 @@ export const jobs: Job[] = [
     salary: "$125,000 - $155,000",
     description: "Build and maintain our cloud infrastructure and CI/CD pipelines.",
     requirements: ["AWS/Azure experience", "Kubernetes", "Terraform"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?cloud,logo",
     postedDate: "4 days ago"
   },
   {
@@ -88,7 +88,7 @@ export const jobs: Job[] = [
     salary: "$110,000 - $140,000",
     description: "Develop cross-platform mobile applications using React Native.",
     requirements: ["React Native experience", "iOS/Android knowledge", "API integration"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?mobile,app",
     postedDate: "1 day ago"
   },
   {
@@ -99,7 +99,7 @@ export const jobs: Job[] = [
     salary: "$130,000 - $160,000",
     description: "Design and implement scalable backend services and APIs.",
     requirements: ["Node.js/Python", "Database design", "RESTful API design"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?server,code",
     postedDate: "5 days ago"
   },
   {
@@ -110,7 +110,7 @@ export const jobs: Job[] = [
     salary: "$120,000 - $150,000",
     description: "Protect our systems and data from security threats and vulnerabilities.",
     requirements: ["Security certifications", "Threat analysis", "Security tooling"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?security,cyber",
     postedDate: "2 weeks ago"
   },
   {
@@ -121,7 +121,7 @@ export const jobs: Job[] = [
     salary: "$150,000 - $200,000",
     description: "Research and develop cutting-edge AI solutions for real-world problems.",
     requirements: ["PhD in ML/AI", "Research publications", "TensorFlow/PyTorch"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?ai,robot",
     postedDate: "3 days ago"
   },
   {
@@ -132,7 +132,7 @@ export const jobs: Job[] = [
     salary: "$80,000 - $100,000",
     description: "Create clear, concise technical documentation for our products and APIs.",
     requirements: ["Technical background", "Excellent writing skills", "Documentation tools"],
-    logo: "/placeholder.svg",
+    logo: "https://source.unsplash.com/random/200x200/?document,writing",
     postedDate: "1 week ago"
   }
 ];
@@ -147,7 +147,7 @@ export const profiles: Profile[] = [
     skills: ["React", "TypeScript", "GraphQL", "UI/UX Design"],
     experience: 7,
     bio: "Passionate about creating beautiful, performant web experiences that users love.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/pTrhfmj2jDA/200x200",
     connectionValue: 85
   },
   {
@@ -159,7 +159,7 @@ export const profiles: Profile[] = [
     skills: ["Product Strategy", "Agile", "User Research", "Data Analysis"],
     experience: 5,
     bio: "Translating user needs into product features that solve real problems.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/7YVZYZeITc8/200x200",
     connectionValue: 92
   },
   {
@@ -171,7 +171,7 @@ export const profiles: Profile[] = [
     skills: ["User Research", "Wireframing", "Figma", "Prototyping"],
     experience: 4,
     bio: "Creating intuitive interfaces through thoughtful, user-centered design.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/yROO-clqHe0/200x200",
     connectionValue: 78
   },
   {
@@ -183,7 +183,7 @@ export const profiles: Profile[] = [
     skills: ["Python", "Machine Learning", "SQL", "Data Visualization"],
     experience: 6,
     bio: "Uncovering patterns in data to drive business decisions and innovation.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/QRELCSwze1A/200x200",
     connectionValue: 88
   },
   {
@@ -195,7 +195,7 @@ export const profiles: Profile[] = [
     skills: ["AWS", "Kubernetes", "CI/CD", "Docker"],
     experience: 8,
     bio: "Building robust, scalable infrastructure to support modern applications.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/zNRITe8NPqY/200x200",
     connectionValue: 90
   },
   {
@@ -207,7 +207,7 @@ export const profiles: Profile[] = [
     skills: ["React Native", "Swift", "Kotlin", "API Integration"],
     experience: 5,
     bio: "Crafting seamless mobile experiences that users can't put down.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/sibVwORYqs0/200x200",
     connectionValue: 82
   },
   {
@@ -219,7 +219,7 @@ export const profiles: Profile[] = [
     skills: ["Node.js", "PostgreSQL", "API Design", "Microservices"],
     experience: 7,
     bio: "Designing scalable, maintainable backend systems that power great products.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/iFgRcqHznqg/200x200",
     connectionValue: 86
   },
   {
@@ -231,7 +231,7 @@ export const profiles: Profile[] = [
     skills: ["Threat Analysis", "Security Auditing", "Penetration Testing", "Risk Assessment"],
     experience: 9,
     bio: "Protecting systems and data from evolving security threats in the digital landscape.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/wxzO61jXOYc/200x200",
     connectionValue: 94
   },
   {
@@ -243,7 +243,7 @@ export const profiles: Profile[] = [
     skills: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"],
     experience: 4,
     bio: "Applying cutting-edge AI research to solve complex real-world problems.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/SJvDxw0azqw/200x200",
     connectionValue: 91
   },
   {
@@ -255,7 +255,7 @@ export const profiles: Profile[] = [
     skills: ["System Architecture", "Team Leadership", "Full-Stack Development", "Mentoring"],
     experience: 10,
     bio: "Leading teams to deliver high-quality software solutions while mentoring the next generation.",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/oje8Hk-6VDY/200x200",
     connectionValue: 95
   }
 ];

@@ -3,8 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useUser } from "@/context/UserContext";
-import { Award, Edit, User, BarChart2, PlusCircle, Briefcase, MapPin, Calendar, Lock } from "lucide-react";
+import { Award, Edit, User, BarChart2, PlusCircle, Briefcase, MapPin } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Profile = () => {
   const { stats } = useUser();
@@ -22,9 +24,27 @@ const Profile = () => {
       <Card>
         <CardHeader>
           <div className="flex flex-col sm:flex-row gap-4">
-            <div className="h-24 w-24 rounded-full bg-muted flex items-center justify-center overflow-hidden">
-              <User className="h-12 w-12 text-muted-foreground" />
-            </div>
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="relative"
+            >
+              <Avatar className="h-24 w-24 border-2 border-gaming-primary shadow-lg">
+                <AvatarImage src="https://source.unsplash.com/ti4uz330CwU/200x200" alt="User Avatar" className="object-cover" />
+                <AvatarFallback className="bg-gaming-gradient text-white">
+                  <User className="h-12 w-12" />
+                </AvatarFallback>
+              </Avatar>
+              <div className="absolute -bottom-2 -right-2 h-8 w-8 rounded-full bg-gaming-gradient flex items-center justify-center shadow-lg">
+                <motion.div 
+                  whileHover={{ rotate: 180 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <Edit className="h-4 w-4 text-white" />
+                </motion.div>
+              </div>
+            </motion.div>
             <div>
               <CardTitle className="text-2xl">Sam Smith</CardTitle>
               <CardDescription className="text-lg">Senior Product Designer</CardDescription>
@@ -129,7 +149,7 @@ const Profile = () => {
             ))}
             <div className="flex flex-col items-center justify-center text-center p-3 border rounded-lg bg-muted/40">
               <div className="h-12 w-12 rounded-full bg-muted flex items-center justify-center mb-2">
-                <Lock className="h-6 w-6 text-muted-foreground" />
+                <User className="h-6 w-6 text-muted-foreground" />
               </div>
               <div className="font-medium text-muted-foreground">More to unlock</div>
             </div>

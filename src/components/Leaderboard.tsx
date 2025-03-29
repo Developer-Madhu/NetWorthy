@@ -1,6 +1,8 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Trophy, Award, Users } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Trophy, Award, Users, User } from "lucide-react";
+import { motion } from "framer-motion";
 
 interface LeaderboardEntry {
   id: number;
@@ -15,7 +17,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 1,
     name: "Alex Johnson",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/pTrhfmj2jDA/200x200",
     points: 2450,
     rank: 1,
     badge: "Networking Champion"
@@ -23,7 +25,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 2,
     name: "Morgan Chen",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/7YVZYZeITc8/200x200",
     points: 2120,
     rank: 2,
     badge: "Connection Expert"
@@ -31,7 +33,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 3,
     name: "Taylor Wilson",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/yROO-clqHe0/200x200",
     points: 1870,
     rank: 3,
     badge: "Rising Star"
@@ -39,7 +41,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 4,
     name: "Jamie Rodriguez",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/QRELCSwze1A/200x200",
     points: 1655,
     rank: 4,
     badge: "Engagement Pro"
@@ -47,7 +49,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 5,
     name: "Jordan Smith",
-    avatar: "/placeholder.svg",
+    avatar: "https://source.unsplash.com/zNRITe8NPqY/200x200",
     points: 1590,
     rank: 5,
     badge: "Referral Master"
@@ -66,9 +68,12 @@ export const Leaderboard = () => {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {leaderboardData.map((entry) => (
-            <div 
+          {leaderboardData.map((entry, index) => (
+            <motion.div 
               key={entry.id} 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: index * 0.1 }}
               className={`flex items-center p-3 rounded-lg ${
                 entry.rank === 1 
                   ? "bg-gradient-to-r from-yellow-50 to-yellow-100 border border-yellow-200" 
@@ -78,12 +83,13 @@ export const Leaderboard = () => {
               <div className="flex items-center justify-center h-8 w-8 rounded-full bg-muted text-muted-foreground font-bold">
                 {entry.rank}
               </div>
-              <div className="h-10 w-10 rounded-full overflow-hidden mx-3">
-                <img 
-                  src={entry.avatar} 
-                  alt={entry.name} 
-                  className="h-full w-full object-cover"
-                />
+              <div className="mx-3">
+                <Avatar className="h-10 w-10 border border-gaming-border shadow-sm">
+                  <AvatarImage src={entry.avatar} alt={entry.name} className="object-cover" />
+                  <AvatarFallback className="bg-gaming-primary/20">
+                    <User className="h-5 w-5 text-gaming-primary" />
+                  </AvatarFallback>
+                </Avatar>
               </div>
               <div className="flex-1">
                 <div className="font-medium">{entry.name}</div>
@@ -96,7 +102,7 @@ export const Leaderboard = () => {
                 {entry.points}
                 <div className="text-xs text-muted-foreground">points</div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </CardContent>
