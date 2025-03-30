@@ -16,7 +16,7 @@ export const CardFooter = ({ onSkip, onConnect }: CardFooterProps) => {
         <Button 
           variant="outline" 
           size="lg" 
-          className="rounded-full border-2 border-accent hover:bg-accent/10 hover:text-accent-foreground" 
+          className="rounded-full border-2 border-accent hover:bg-accent/10 hover:text-accent-foreground shadow-[0_0_10px_rgba(249,115,22,0.2)]" 
           onClick={onSkip}
         >
           <ChevronLeft className="mr-2 h-5 w-5" />
@@ -28,7 +28,7 @@ export const CardFooter = ({ onSkip, onConnect }: CardFooterProps) => {
         <Button 
           variant="default" 
           size="lg" 
-          className="rounded-full bg-gaming-gradient hover:shadow-lg" 
+          className="rounded-full bg-gaming-gradient hover:shadow-lg shadow-[0_0_10px_rgba(139,92,246,0.3)]" 
           onClick={onConnect}
         >
           Connect

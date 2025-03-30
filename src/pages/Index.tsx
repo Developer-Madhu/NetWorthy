@@ -26,6 +26,17 @@ const Index = () => {
             }}
             transition={{ duration: 10, repeat: Infinity, delay: 2 }}
           />
+          <motion.div 
+            className="absolute top-1/3 right-1/4 w-40 h-40 rounded-full bg-accent/5 blur-2xl"
+            animate={{ 
+              scale: [1, 1.3, 1], 
+              opacity: [0.3, 0.5, 0.3] 
+            }}
+            transition={{ duration: 12, repeat: Infinity, delay: 4 }}
+          />
+          
+          {/* Add subtle grid pattern */}
+          <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         </div>
         
         <motion.div 

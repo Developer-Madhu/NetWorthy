@@ -17,7 +17,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 1,
     name: "Alex Johnson",
-    avatar: "https://source.unsplash.com/pTrhfmj2jDA/200x200",
+    avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     points: 2450,
     rank: 1,
     badge: "Networking Champion"
@@ -25,7 +25,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 2,
     name: "Morgan Chen",
-    avatar: "https://source.unsplash.com/7YVZYZeITc8/200x200",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     points: 2120,
     rank: 2,
     badge: "Connection Expert"
@@ -33,7 +33,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 3,
     name: "Taylor Wilson",
-    avatar: "https://source.unsplash.com/yROO-clqHe0/200x200",
+    avatar: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     points: 1870,
     rank: 3,
     badge: "Rising Star"
@@ -41,7 +41,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 4,
     name: "Jamie Rodriguez",
-    avatar: "https://source.unsplash.com/QRELCSwze1A/200x200",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     points: 1655,
     rank: 4,
     badge: "Engagement Pro"
@@ -49,7 +49,7 @@ const leaderboardData: LeaderboardEntry[] = [
   {
     id: 5,
     name: "Jordan Smith",
-    avatar: "https://source.unsplash.com/zNRITe8NPqY/200x200",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     points: 1590,
     rank: 5,
     badge: "Referral Master"
