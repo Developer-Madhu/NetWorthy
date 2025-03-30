@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -69,7 +68,7 @@ export const AppNavigation = () => {
         className="hidden sm:flex sm:flex-col border-r border-gaming-border h-screen w-64 backdrop-blur-md bg-sidebar/80 dark:bg-gaming-background/40 fixed z-30"
       >
         <div className="p-6">
-          <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gaming-gradient">SwipeConnect</h2>
+          <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gaming-gradient">NetWorthy</h2>
           <div className="mt-2 flex items-center">
             <motion.div 
               className="flex items-center justify-center h-8 w-8 rounded-full bg-gaming-gradient"
