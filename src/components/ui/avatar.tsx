@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import * as AvatarPrimitive from "@radix-ui/react-avatar"
 import { cn } from "@/lib/utils"
@@ -18,10 +19,13 @@ const Avatar = React.forwardRef<
 ))
 Avatar.displayName = AvatarPrimitive.Root.displayName
 
+// Define our own type that matches Radix UI's image loading status
+type ImageLoadingStatus = "idle" | "loading" | "loaded" | "error";
+
 const AvatarImage = React.forwardRef<
   React.ElementRef<typeof AvatarPrimitive.Image>,
   React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Image> & {
-    onLoadingStatusChange?: (status: "idle" | "loading" | "loaded" | "error") => void;
+    onLoadingStatusChange?: (status: ImageLoadingStatus) => void;
   }
 >(({ className, onLoadingStatusChange, ...props }, ref) => {
   const [status, setStatus] = React.useState<"loading" | "loaded" | "error">("loading")
@@ -32,18 +36,12 @@ const AvatarImage = React.forwardRef<
     }
   }, [status, onLoadingStatusChange])
 
-  const mapLoadingStatus = (status: AvatarPrimitive.ImageLoadingStatus): "idle" | "loading" | "loaded" | "error" => {
-    switch (status) {
-      case "idle": return "idle";
-      case "loading": return "loading";
-      case "loaded": return "loaded";
-      case "error": return "error";
-    }
-  };
-
-  const handleLoadingStatusChange = (status: AvatarPrimitive.ImageLoadingStatus) => {
+  // Use our own defined type instead of referencing AvatarPrimitive.ImageLoadingStatus
+  const handleLoadingStatusChange = (status: ImageLoadingStatus) => {
+    setStatus(status === "idle" ? "loading" : status);
+    
     if (onLoadingStatusChange) {
-      onLoadingStatusChange(mapLoadingStatus(status));
+      onLoadingStatusChange(status);
     }
   };
 
