@@ -147,7 +147,7 @@ export const profiles: Profile[] = [
     skills: ["React", "TypeScript", "GraphQL", "UI/UX Design"],
     experience: 7,
     bio: "Passionate about creating beautiful, performant web experiences that users love.",
-    avatar: "https://source.unsplash.com/pTrhfmj2jDA/200x200",
+    avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 85
   },
   {
