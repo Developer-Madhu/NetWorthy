@@ -33,7 +33,7 @@ export const jobs: Job[] = [
     salary: "$120,000 - $150,000",
     description: "Join our team to build cutting-edge web applications using React and TypeScript.",
     requirements: ["3+ years React experience", "TypeScript proficiency", "CSS/SASS expertise"],
-    logo: "https://source.unsplash.com/random/200x200/?tech,logo",
+    logo: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "2 days ago"
   },
   {
@@ -44,7 +44,7 @@ export const jobs: Job[] = [
     salary: "$90,000 - $120,000",
     description: "Create beautiful, intuitive user experiences for our enterprise SaaS platform.",
     requirements: ["Portfolio showcasing UX work", "Figma expertise", "User research experience"],
-    logo: "https://source.unsplash.com/random/200x200/?design,logo",
+    logo: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "1 week ago"
   },
   {
@@ -55,7 +55,7 @@ export const jobs: Job[] = [
     salary: "$130,000 - $160,000",
     description: "Lead our product development from concept to launch, working with cross-functional teams.",
     requirements: ["5+ years PM experience", "Technical background", "Agile methodologies"],
-    logo: "https://source.unsplash.com/random/200x200/?product,logo",
+    logo: "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "3 days ago"
   },
   {
@@ -66,7 +66,7 @@ export const jobs: Job[] = [
     salary: "$140,000 - $180,000",
     description: "Extract insights from large datasets to drive business decisions using ML and AI.",
     requirements: ["Python/R proficiency", "ML experience", "SQL expertise"],
-    logo: "https://source.unsplash.com/random/200x200/?data,logo",
+    logo: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "Just now"
   },
   {
@@ -77,7 +77,7 @@ export const jobs: Job[] = [
     salary: "$125,000 - $155,000",
     description: "Build and maintain our cloud infrastructure and CI/CD pipelines.",
     requirements: ["AWS/Azure experience", "Kubernetes", "Terraform"],
-    logo: "https://source.unsplash.com/random/200x200/?cloud,logo",
+    logo: "https://images.pexels.com/photos/5496464/pexels-photo-5496464.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "4 days ago"
   },
   {
@@ -88,7 +88,7 @@ export const jobs: Job[] = [
     salary: "$110,000 - $140,000",
     description: "Develop cross-platform mobile applications using React Native.",
     requirements: ["React Native experience", "iOS/Android knowledge", "API integration"],
-    logo: "https://source.unsplash.com/random/200x200/?mobile,app",
+    logo: "https://images.pexels.com/photos/5082576/pexels-photo-5082576.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "1 day ago"
   },
   {
@@ -99,7 +99,7 @@ export const jobs: Job[] = [
     salary: "$130,000 - $160,000",
     description: "Design and implement scalable backend services and APIs.",
     requirements: ["Node.js/Python", "Database design", "RESTful API design"],
-    logo: "https://source.unsplash.com/random/200x200/?server,code",
+    logo: "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=600",
     postedDate: "5 days ago"
   },
   {
