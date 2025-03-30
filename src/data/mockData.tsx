@@ -159,7 +159,7 @@ export const profiles: Profile[] = [
     skills: ["Product Strategy", "Agile", "User Research", "Data Analysis"],
     experience: 5,
     bio: "Translating user needs into product features that solve real problems.",
-    avatar: "https://source.unsplash.com/7YVZYZeITc8/200x200",
+    avatar: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 92
   },
   {
@@ -171,7 +171,7 @@ export const profiles: Profile[] = [
     skills: ["User Research", "Wireframing", "Figma", "Prototyping"],
     experience: 4,
     bio: "Creating intuitive interfaces through thoughtful, user-centered design.",
-    avatar: "https://source.unsplash.com/yROO-clqHe0/200x200",
+    avatar: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 78
   },
   {
@@ -183,7 +183,7 @@ export const profiles: Profile[] = [
     skills: ["Python", "Machine Learning", "SQL", "Data Visualization"],
     experience: 6,
     bio: "Uncovering patterns in data to drive business decisions and innovation.",
-    avatar: "https://source.unsplash.com/QRELCSwze1A/200x200",
+    avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 88
   },
   {
@@ -195,7 +195,7 @@ export const profiles: Profile[] = [
     skills: ["AWS", "Kubernetes", "CI/CD", "Docker"],
     experience: 8,
     bio: "Building robust, scalable infrastructure to support modern applications.",
-    avatar: "https://source.unsplash.com/zNRITe8NPqY/200x200",
+    avatar: "https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 90
   },
   {
@@ -207,7 +207,7 @@ export const profiles: Profile[] = [
     skills: ["React Native", "Swift", "Kotlin", "API Integration"],
     experience: 5,
     bio: "Crafting seamless mobile experiences that users can't put down.",
-    avatar: "https://source.unsplash.com/sibVwORYqs0/200x200",
+    avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 82
   },
   {
@@ -219,7 +219,7 @@ export const profiles: Profile[] = [
     skills: ["Node.js", "PostgreSQL", "API Design", "Microservices"],
     experience: 7,
     bio: "Designing scalable, maintainable backend systems that power great products.",
-    avatar: "https://source.unsplash.com/iFgRcqHznqg/200x200",
+    avatar: "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 86
   },
   {
@@ -231,7 +231,7 @@ export const profiles: Profile[] = [
     skills: ["Threat Analysis", "Security Auditing", "Penetration Testing", "Risk Assessment"],
     experience: 9,
     bio: "Protecting systems and data from evolving security threats in the digital landscape.",
-    avatar: "https://source.unsplash.com/wxzO61jXOYc/200x200",
+    avatar: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 94
   },
   {
@@ -243,7 +243,7 @@ export const profiles: Profile[] = [
     skills: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"],
     experience: 4,
     bio: "Applying cutting-edge AI research to solve complex real-world problems.",
-    avatar: "https://source.unsplash.com/SJvDxw0azqw/200x200",
+    avatar: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 91
   },
   {
@@ -255,7 +255,7 @@ export const profiles: Profile[] = [
     skills: ["System Architecture", "Team Leadership", "Full-Stack Development", "Mentoring"],
     experience: 10,
     bio: "Leading teams to deliver high-quality software solutions while mentoring the next generation.",
-    avatar: "https://source.unsplash.com/oje8Hk-6VDY/200x200",
+    avatar: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600",
     connectionValue: 95
   }
 ];
