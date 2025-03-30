@@ -25,7 +25,7 @@ export const CardHeader = ({ item, type }: CardHeaderProps) => {
         <motion.img 
           src={type === "job" ? (item as Job).logo : (item as Profile).avatar} 
           alt={type === "job" ? (item as Job).company : (item as Profile).name}
-          className="h-28 w-28 object-contain rounded-lg"
+          className="h-28 w-28 object-contain rounded-full" // Changed from rounded-lg to rounded-full
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
